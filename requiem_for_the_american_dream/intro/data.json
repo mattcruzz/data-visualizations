@@ -1,0 +1,57 @@
+{
+    "name": "networth",
+    "children": [
+        {
+            "name": "Top1",
+            "children": [
+                {
+                    "name": "Assets",
+                    "size": "4925950"
+                },
+                {
+                    "name": "Liabilities",
+                    "size": "123107"
+                }
+            ]
+        },
+        {
+            "name": "Next9",
+            "children": [
+                {
+                    "name": "Assets",
+                    "size": "8115526"
+                },
+                {
+                    "name": "Liabilities",
+                    "size": "510774"
+                }
+            ]
+        },
+        {
+            "name": "Next40",
+            "children": [
+                {
+                    "name": "Assets",
+                    "size": "8795714"
+                },
+                {
+                    "name": "Liabilities",
+                    "size": "1545830"
+                }
+            ]
+        },
+        {
+            "name": "Bottom50",
+            "children": [
+                {
+                    "name": "Assets",
+                    "size": "1715289"
+                },
+                {
+                    "name": "Liabilities",
+                    "size": "952866"
+                }
+            ]
+        }
+    ]
+}
