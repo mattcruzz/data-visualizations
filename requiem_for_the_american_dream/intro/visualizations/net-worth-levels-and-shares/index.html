@@ -102,23 +102,22 @@
         .on("click", () => focusOn()); // Reset zoom on canvas click
 
       d3.json("../../data.json", (error, root) => {
-        console.log(error, root);
         if (error) throw error;
 
         root = d3.hierarchy(root);
-        // TODO: Make this a map, Net Worth = (Assets - Liabilities)
         root.sum((d) => {
-          console.log("sum");
-          console.log(d);
           return d.size;
         });
 
+        // Creates the slices
         const slice = svg
           .selectAll("g.slice")
           .data(partition(root).descendants());
+        // .data(partition(root).descendants().slice(1));  // Remove the root
 
         slice.exit().remove();
 
+        // Create the slice
         const newSlice = slice
           .enter()
           .append("g")
@@ -128,10 +127,15 @@
             focusOn(d);
           });
 
+        // Title displays on the tooltip
         newSlice.append("title").text((d) => {
+          if (d.data.name === "Top1") {
+            console.log(d);
+          }
           return d.data.name + "\n" + formatNumber(d.value);
         });
 
+        // Color the slice
         newSlice
           .append("path")
           .attr("class", "main-arc")
@@ -144,6 +148,7 @@
           .attr("id", (_, i) => `hiddenArc${i}`)
           .attr("d", middleArcLine);
 
+        // Add the text to the slice
         const text = newSlice
           .append("text")
           .attr("display", (d) => (textFits(d) ? null : "none"));
@@ -159,6 +164,7 @@
           .style("stroke-width", 5)
           .style("stroke-linejoin", "round");
 
+        // Text
         text
           .append("textPath")
           .attr("startOffset", "50%")

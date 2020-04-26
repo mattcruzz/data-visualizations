@@ -9,27 +9,27 @@
                     "children": [
                         {
                             "name": "Real estate",
-                            "size": 3962444
+                            "size": 1301152
                         },
                         {
                             "name": "Consumer durables",
-                            "size": 966649
+                            "size": 491763
                         },
                         {
                             "name": "Corporate equities and mutual fund shares",
-                            "size": 15341253
+                            "size": 4900627
                         },
                         {
                             "name": "Pension entitlements",
-                            "size": 2257212
+                            "size": 1016294
                         },
                         {
                             "name": "Private businesses",
-                            "size": 7808632
+                            "size": 2505891
                         },
                         {
                             "name": "Other assets",
-                            "size": 7213932
+                            "size": 2070103
                         }
                     ]
                 },
@@ -38,15 +38,15 @@
                     "children": [
                         {
                             "name": "Home mortgages",
-                            "size": 444819
+                            "size": 224131
                         },
                         {
                             "name": "Consumer credit",
-                            "size": 92692
+                            "size": 0
                         },
                         {
                             "name": "Other liabilities",
-                            "size": 211663
+                            "size": 75718
                         }
                     ]
                 }
@@ -60,27 +60,27 @@
                     "children": [
                         {
                             "name": "Real estate",
-                            "size": 9086232
+                            "size": 3080274
                         },
                         {
                             "name": "Consumer durables",
-                            "size": 941264
+                            "size": 526775
                         },
                         {
                             "name": "Corporate equities and mutual fund shares",
-                            "size": 9879266
+                            "size": 3489239
                         },
                         {
                             "name": "Pension entitlements",
-                            "size": 12719773
+                            "size": 4178946
                         },
                         {
                             "name": "Private businesses",
-                            "size": 4099875
+                            "size": 1407022
                         },
                         {
                             "name": "Other assets",
-                            "size": 7986760
+                            "size": 2542625
                         }
                     ]
                 },
@@ -89,15 +89,15 @@
                     "children": [
                         {
                             "name": "Home mortgages",
-                            "size": 2489871
+                            "size": 867151
                         },
                         {
                             "name": "Consumer credit",
-                            "size": 338042
+                            "size": 175320
                         },
                         {
                             "name": "Other liabilities",
-                            "size": 193947
+                            "size": 173427
                         }
                     ]
                 }
@@ -111,27 +111,27 @@
                     "children": [
                         {
                             "name": "Real estate",
-                            "size": 12216651
+                            "size": 5170007
                         },
                         {
                             "name": "Consumer durables",
-                            "size": 2385717
+                            "size": 1273814
                         },
                         {
                             "name": "Corporate equities and mutual fund shares",
-                            "size": 3223857
+                            "size": 1632444
                         },
                         {
                             "name": "Pension entitlements",
-                            "size": 12297785
+                            "size": 5030072
                         },
                         {
                             "name": "Private businesses",
-                            "size": 1515076
+                            "size": 591161
                         },
                         {
                             "name": "Other assets",
-                            "size": 6064759
+                            "size": 2729355
                         }
                     ]
                 },
@@ -140,15 +140,15 @@
                     "children": [
                         {
                             "name": "Home mortgages",
-                            "size": 4367530
+                            "size": 2225572
                         },
                         {
                             "name": "Consumer credit",
-                            "size": 1545081
+                            "size": 553405
                         },
                         {
                             "name": "Other liabilities",
-                            "size": 157417
+                            "size": 106427
                         }
                     ]
                 }
@@ -162,27 +162,27 @@
                     "children": [
                         {
                             "name": "Real estate",
-                            "size": 4060553
+                            "size": 1666009
                         },
                         {
                             "name": "Consumer durables",
-                            "size": 1458632
+                            "size": 698770
                         },
                         {
                             "name": "Corporate equities and mutual fund shares",
-                            "size": 217234
+                            "size": 135394
                         },
                         {
                             "name": "Pension entitlements",
-                            "size": 720782
+                            "size": 456443
                         },
                         {
                             "name": "Private businesses",
-                            "size": 118334
+                            "size": 64283
                         },
                         {
                             "name": "Other assets",
-                            "size": 847075
+                            "size": 423901
                         }
                     ]
                 },
@@ -191,15 +191,15 @@
                     "children": [
                         {
                             "name": "Home mortgages",
-                            "size": 3307920
+                            "size": 1117620
                         },
                         {
                             "name": "Consumer credit",
-                            "size": 2214904
+                            "size": 824897
                         },
                         {
                             "name": "Other liabilities",
-                            "size": 240594
+                            "size": 40547
                         }
                     ]
                 }
