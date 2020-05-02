@@ -101,7 +101,7 @@
         .attr("viewBox", `${-width / 2} ${-height / 2} ${width} ${height}`)
         .on("click", () => focusOn()); // Reset zoom on canvas click
 
-      d3.json("../../data.json", (error, root) => {
+      d3.json("./data/2019_Q4.json", (error, root) => {
         if (error) throw error;
 
         root = d3.hierarchy(root);
@@ -129,10 +129,23 @@
 
         // Title displays on the tooltip
         newSlice.append("title").text((d) => {
-          if (d.data.name === "Top1") {
-            console.log(d);
+          // Net worth = Assets - Liabilities
+          switch (d.data.name) {
+            case "Top1":
+              return `Top 1%\n${formatNumber(36800949)} M`;
+            case "Next9":
+              return `Next 9%\n${formatNumber(41691311)} M`;
+            case "Next40":
+              return `Next 40%\n${formatNumber(31633817)} M`;
+            case "Bottom50":
+              return `Bottom 50%\n${formatNumber(1659192)} M`;
+            default:
+              return `${d
+                .ancestors()
+                .map((d) => d.data.name)
+                .reverse()
+                .join("/")}\n${formatNumber(d.value)} M`;
           }
-          return d.data.name + "\n" + formatNumber(d.value);
         });
 
         // Color the slice
@@ -223,6 +236,10 @@
           Zoomable Sunburst with Labels</a
         >
         by <a href="https://bl.ocks.org/vasturiano">Vasco Asturiano</a>
+        <a href="https://observablehq.com/@d3/zoomable-sunburst"
+          >zoomable-sunburst</a
+        >
+        by <a href="https://observablehq.com/@mbostock">Mike Bostock</a>
       </li>
     </ul>
   </body>

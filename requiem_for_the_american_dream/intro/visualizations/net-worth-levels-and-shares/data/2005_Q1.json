@@ -1,0 +1,209 @@
+{
+    "name": "Net Worth",
+    "children": [
+        {
+            "name": "Top1",
+            "children": [
+                {
+                    "name": "Assets",
+                    "children": [
+                        {
+                            "name": "Real estate",
+                            "size": 2984031
+                        },
+                        {
+                            "name": "Consumer durables",
+                            "size": 552926
+                        },
+                        {
+                            "name": "Corporate equities and mutual fund shares",
+                            "size": 4449710
+                        },
+                        {
+                            "name": "Pension entitlements",
+                            "size": 896529
+                        },
+                        {
+                            "name": "Private businesses",
+                            "size": 3845012
+                        },
+                        {
+                            "name": "Other assets",
+                            "size": 3690946
+                        }
+                    ]
+                },
+                {
+                    "name": "Liabilities",
+                    "children": [
+                        {
+                            "name": "Home mortgages",
+                            "size": 453260
+                        },
+                        {
+                            "name": "Consumer credit",
+                            "size": 36327
+                        },
+                        {
+                            "name": "Other liabilities",
+                            "size": 124341
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Next9",
+            "children": [
+                {
+                    "name": "Assets",
+                    "children": [
+                        {
+                            "name": "Real estate",
+                            "size": 5883725
+                        },
+                        {
+                            "name": "Consumer durables",
+                            "size": 856225
+                        },
+                        {
+                            "name": "Corporate equities and mutual fund shares",
+                            "size": 3451157
+                        },
+                        {
+                            "name": "Pension entitlements",
+                            "size": 5936473
+                        },
+                        {
+                            "name": "Private businesses",
+                            "size": 2333087
+                        },
+                        {
+                            "name": "Other assets",
+                            "size": 3781399
+                        }
+                    ]
+                },
+                {
+                    "name": "Liabilities",
+                    "children": [
+                        {
+                            "name": "Home mortgages",
+                            "size": 1510798
+                        },
+                        {
+                            "name": "Consumer credit",
+                            "size": 186361
+                        },
+                        {
+                            "name": "Other liabilities",
+                            "size": 158337
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Next40",
+            "children": [
+                {
+                    "name": "Assets",
+                    "children": [
+                        {
+                            "name": "Real estate",
+                            "size": 9724932
+                        },
+                        {
+                            "name": "Consumer durables",
+                            "size": 1664064
+                        },
+                        {
+                            "name": "Corporate equities and mutual fund shares",
+                            "size": 1522346
+                        },
+                        {
+                            "name": "Pension entitlements",
+                            "size": 6398863
+                        },
+                        {
+                            "name": "Private businesses",
+                            "size": 1260202
+                        },
+                        {
+                            "name": "Other assets",
+                            "size": 3388588
+                        }
+                    ]
+                },
+                {
+                    "name": "Liabilities",
+                    "children": [
+                        {
+                            "name": "Home mortgages",
+                            "size": 4069230
+                        },
+                        {
+                            "name": "Consumer credit",
+                            "size": 834943
+                        },
+                        {
+                            "name": "Other liabilities",
+                            "size": 74463
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Bottom50",
+            "children": [
+                {
+                    "name": "Assets",
+                    "children": [
+                        {
+                            "name": "Real estate",
+                            "size": 2588213
+                        },
+                        {
+                            "name": "Consumer durables",
+                            "size": 881869
+                        },
+                        {
+                            "name": "Corporate equities and mutual fund shares",
+                            "size": 87076
+                        },
+                        {
+                            "name": "Pension entitlements",
+                            "size": 456635
+                        },
+                        {
+                            "name": "Private businesses",
+                            "size": 102217
+                        },
+                        {
+                            "name": "Other assets",
+                            "size": 477335
+                        }
+                    ]
+                },
+                {
+                    "name": "Liabilities",
+                    "children": [
+                        {
+                            "name": "Home mortgages",
+                            "size": 2055732
+                        },
+                        {
+                            "name": "Consumer credit",
+                            "size": 1147343
+                        },
+                        {
+                            "name": "Other liabilities",
+                            "size": 31715
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
